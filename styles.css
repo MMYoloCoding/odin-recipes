@@ -1,0 +1,39 @@
+.alert-text,
+.alert-text-2 {
+    color: red;
+}
+
+.alert-text {
+    text-decoration: underline;
+
+}
+
+.box1 {
+    /* padding: 3px solid red; */
+    border: 3px solid  blue;
+    /* margin: 3px solid purple ; */
+}
+
+.flex-container-h div , .flex-container-v div{
+    border: 3px solid black;
+}
+.flex-container-h, .flex-container-v{
+    display: flex;
+    border: 3px solid green;
+    gap: 8px
+}
+
+.flex-container-h {
+    flex-direction: row;
+}
+
+.flex-container-v {
+    flex-direction: column;
+}
+
+
+
+.flex_item {
+    border: 1px solid black;
+    flex: 1;
+}
